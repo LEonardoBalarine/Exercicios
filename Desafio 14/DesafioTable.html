@@ -7,74 +7,82 @@
     <style>
         table{
             border-collapse: collapse;
+            
         }
         th, td{
             border: 1px solid black;
 
         }
+        thead th{
+          background-color: gray;
+        }
+     
+        
     </style>
 </head>
 <body>
     <table>
-        <thead>
-          <tr>
-            <th>Área</th>
-            <th>disciplinas</th>
-            <th>Notas</th>
-            <th>Nota 1</th>
-            <th>Nota2</th>
-            <th>Média</th>
-          </tr>
-          <tr>
-            <th rowspan="4">Exatas</th>
-            <td>Matemática</td>
-            <td>6</td>
-            <td>6</td>
-            <td>6</td>
-          </tr>
-          <tr>
-            <td>Fisica</td>
-            <td>7</td>
-            <td>7</td>
-            <td>7</td>
-          </tr>
-          <tr>
-            <td>Química</td>
-            <td>8</td>
-            <td>8</td>
-            <td>8</td>
-          </tr>
-          <tr>
-            <td>Biologia</td>
-            <td>9</td>
-            <td>9</td>
-            <td>9</td>
-          </tr>
-          <tr>
-            <th colspan="4">Média de Exatas</th>
-            <td>6</td>
-          </tr>
-          <tr>
-            <th rowspan="2">Humanas</th>
-            <td>História</td>
-            <td>5</td>
-            <td>6</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>Geografia</td>
-            <td>5</td>
-            <td>6</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <th colspan="4">Média de Humanas</th>
-            <td>6</td>
-          </tr>
-        </thead>
-        <tbody>
-
-        </tbody>
+        
+          <thead>
+            <tr>
+              <th>Área</th>
+              <th>disciplinas</th>
+              <th colspan="2">
+               Notas <br>
+                <hr>
+               Nota 1  Nota 2
+              </th>
+              <th>Média</th>
+          </thead>
+          <tbody>
+            </tr>
+            <tr>
+              <th rowspan="4">Exatas</th>
+              <td>Matemática</td>
+              <td>6</td>
+              <td>6</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>Fisica</td>
+              <td>7</td>
+              <td>7</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>Química</td>
+              <td>8</td>
+              <td>8</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Biologia</td>
+              <td>9</td>
+              <td>9</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th colspan="4">Média de Exatas</th>
+              <td>6</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Humanas</th>
+              <td>História</td>
+              <td>5</td>
+              <td>6</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Geografia</td>
+              <td>5</td>
+              <td>6</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th colspan="4">Média de Humanas</th>
+              <td>6</td>
+            </tr>
+          </tbody>
     </table>
 </body>
 </html>
